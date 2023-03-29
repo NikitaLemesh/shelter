@@ -1,0 +1,36 @@
+@import url(./normalize.css);
+@import url(./header.css);
+@import url(./section__cozy-house.css);
+@import url(./section__about-shelter.css);
+@import url(./section__our-friends.css);
+@import url(./section__help-our-shelter.css);
+@import url(./section__donation.css);
+@import url(./footer.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    overflow-y: hidden;
+}
+
+.wrapper {
+    max-width: 1280px;
+    padding: 0px 40px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+    .wrapper {
+        padding: 0px 30px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+    .wrapper {
+        padding: 0px 10px;
+    }
+}

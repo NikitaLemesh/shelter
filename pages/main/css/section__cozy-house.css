@@ -1,0 +1,161 @@
+.section__cozy-house {
+    background: linear-gradient(to right, #533c2e, #101012);
+    background-size: cover;
+    margin: auto;
+    padding-bottom: 0px;
+}
+
+.section__cozy-house-burger {
+    background: linear-gradient(to right, #533c2e, #101012);
+    background-size: cover;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+
+.article__not-only-people {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.article__not-only-people-description {
+    width: 460px;
+    margin-top: 163px;
+}
+
+.cozy-house-title {
+    font-family: 'Georgia';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 44px;
+    width: 330px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    margin-bottom: 42px;
+}
+
+.article__not-only-people-description p {
+    font-size: 15px;
+    line-height: 160%;
+    color: rgba(205, 205, 205, 1);
+    width: 460px;
+    margin-bottom: 42px;
+    font-family: "Arial";
+}
+
+.cozy-housed-image-dog {
+    width: 709px;
+    height: 724px;
+}
+
+.button__not-only-people {
+    border-radius: 100px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    background-color: rgba(241, 205, 179, 1);
+    padding: 15px 45px;
+    width: 207px;
+}
+
+.button__not-only-people a {
+    text-decoration: none;
+    color: rgba(41, 41, 41, 1);
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+    font-family: 'Georgia';
+}
+
+.button__not-only-people:hover {
+    background-color: rgba(250, 250, 250, 1);
+    border: 2px solid rgba(241, 205, 179, 1);
+    transition-duration: 0.2s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+    .article__not-only-people {
+        width: 570px;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0px;
+        padding-top: 57px;
+    }
+
+    .cozy-house-title {
+        margin-bottom: 36px;
+    }
+
+    .article__not-only-people-description p {
+        margin-bottom: 38px;
+    }
+
+
+    .article__not-only-people-description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    .cozy-housed-image-dog {
+        margin-left: 140px;
+        width: 569px;
+        height: 593px;
+    }
+
+    .button__not-only-people {
+        align-self: center;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+    .article__not-only-people {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0px;
+        margin: auto;
+        width: 300px;
+        padding-top: 58px;
+    }
+
+    .article__not-only-people-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 105px;
+        width: 300px;
+    }
+
+    section .section__box-color {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(49, 47, 47, 0.4);
+        width: 100%;
+        height: 814px;
+        z-index: 2;
+    }
+
+    .cozy-house-title {
+        text-align: center;
+        font-size: 25px;
+        width: 200px;
+        margin-bottom: 38px;
+    }
+
+    .article__not-only-people-description p {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 35px;
+    }
+
+    .cozy-housed-image-dog {
+        margin-left: 40px;
+        width: 260px;
+        height: 271px;
+    }
+}
+

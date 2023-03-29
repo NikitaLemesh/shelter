@@ -1,0 +1,161 @@
+.footer{
+    margin: auto;
+    padding-top: 40px;
+    background: linear-gradient(to right, #533c2e, #101012);
+}
+
+.footer__box{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+    margin-top: 16px;
+}
+
+.footer__discribtion{
+    font-family: 'Georgia';
+    color: rgba(255, 255, 255, 1);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+}
+
+.footer__contacts{
+    width: 278px;
+}
+
+.footer__email-box{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    font-family: 'Georgia';
+    letter-spacing: 0.05em;
+    color: rgba(241, 205, 179, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    text-decoration: none;
+}
+
+.footer__email-box img{
+    width: 40px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.footer__phone-box{
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+    letter-spacing: 0.05em;
+    color: rgba(241, 205, 179, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    text-decoration: none;
+}
+
+.footer__phone-box img{
+    width: 40px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.footer__locations{
+    width: 302px;
+}
+
+.footer__location-box{
+    margin-top: 33px;
+    margin-bottom: 33px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+    letter-spacing: 0.05em;
+    color: rgba(241, 205, 179, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.footer__location-img{
+    width: 22px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.footer__puppy-img{
+    width: 300px;
+    height: 310px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+    .footer{
+        padding-top: 35px;
+    }
+    
+
+    .footer__box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__content {
+        margin: auto;
+        width: 640px;
+        margin-bottom: 65px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+    .footer{
+        padding-top: 30px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 0px;
+    }
+
+    .footer__box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__discribtion{
+        width: 278px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .footer__locations{
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .footer__location-box{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer__puppy-img{
+        width: 260px;
+        height: 269px;
+    }
+}

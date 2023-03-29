@@ -1,0 +1,131 @@
+.section__donation {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.donation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 915px;
+}
+
+.section__donation-image {
+    width: 505px;
+    height: 261px;
+}
+
+.donation-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 380px;
+    height: 282px;
+}
+
+.donation-title {
+    font-size: 35px;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-family: 'Georgia';
+}
+
+.donation-bank-info {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%;
+    color: rgba(84, 84, 84, 1);
+    font-family: 'Georgia';
+    letter-spacing: 0.06em;
+}
+
+.donation-card-info {
+    display: flex;
+    justify-content: space-between;
+    width: 349px;
+    border-radius: 9px;
+    background-color: rgba(241, 205, 179, 1);
+    padding: 10px 15px;
+}
+
+.donation-card-number {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    color: rgba(84, 84, 84, 1);
+    letter-spacing: 0.05em;
+    font-family: 'Georgia';
+    text-decoration: none;
+}
+
+.donation-card-number:hover {
+    color: rgba(246, 246, 246, 1);
+}
+
+.donation-paragraph {
+    font-size: 12px;
+    color: rgba(178, 178, 178, 1);
+    line-height: 150%;
+    font-style: italic;
+    font-family: 'Arial';
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+    .donation-content {
+        flex-direction: column-reverse;
+        width: 505px;
+    }
+
+    .donation-info {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+    .section__donation {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    .donation-content {
+        flex-direction: column-reverse;
+        width: 300px;
+    }
+
+    .donation-paragraph {
+        text-align: justify;
+    }
+
+    .section__donation-image {
+        width: 260px;
+        height: 135px;
+    }
+
+    .donation-info {
+        width: 300px;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .donation-bank-info {
+        letter-spacing: 0.03em;
+    }
+
+    .donation-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .donation-card-info {
+        width: 281px;
+    }
+
+    .donation-card-number {
+        font-size: 15px;
+    }
+    
+}

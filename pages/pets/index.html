@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header__box" id="Our_pets">
+            <div class="wrapper wrapper__header">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="../main/index.html#About">
+                            <h1 class="header__logo-title">Cozy House</h1>
+                        </a>
+                        <p class="header__logo-text">
+                            Shelter for pets in Boston
+                        </p>
+                    </div>
+                    <input id="menu__button" type="checkbox" class="menu__button-input">
+                    <label class="menu__label-close burger-menu" for="menu__button" id="label"><span class="middle-burger-line"></span></label>
+                    <nav class="header__navigation" id="navigation">
+                        <ul>
+                            <li class="header__list"><a class="header__link" id="link-about" href="../main/index.html#About">About the shelter</a></li>
+                            <li class="header__list"><a class="header__link link__underline" id="link-our">Our pets</a></li>
+                            <li class="header__list"><a class="header__link" id="link-help" href="../main/index.html#Help">Help the shelter</a></li>
+                            <li class="header__list"><a class="header__link" id="link-contact">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+        <section class="section__our-friends-box">
+            <div class="our-friends-aside-color-burger"></div>
+            <div class="wrapper wrapper__our-friends-cards">
+                <h2 class="section__our-friends-box-titel">Our friends who<br> are looking for a house</h2>
+                <div class="figure__our-friends-cards">
+                </div>
+            </div>
+            <div class="section__our-friends-slider">
+                <button class="slider-button-to-first slider-button" disabled>&#60&#60</button>
+                <button class="slider-button-prev slider-button" id="prev-slider" disabled>&#60</button>
+                <button class="slider-button-center slider-button" disabled>1</button>
+                <button class="slider-button-next slider-button">&#62</button>
+                <button class="slider-button-doublenext slider-button">&#62&#62</button>
+            </div>
+        </section>
+        <footer class="footer" id="Contacts">
+            <div class="wrapper">
+                <div class="footer__box">
+                    <article class="footer__content">
+                        <div class="footer__contacts">
+                            <h3 class="footer__discribtion">For questions and suggestions</h3>
+                            <div>
+                                <a class="footer__email-box" href="mailto:https://www.google.com/intl/ru/gmail/about/">
+                                    <img src="../../assets/icons/icon-mail.svg" alt="mail">
+                                    <span>email@shelter.com</span></a>
+                            </div>
+                            <div>
+                                <a class="footer__phone-box" href="tel:+13 674 567 75 54">
+                                    <img src="../../assets/icons/icon-phone.svg" alt="phone">
+                                    <span>+13 674 567 75 54</span></a>
+                            </div>
+                        </div>
+                        <div class="footer__locations">
+                            <h3 class="footer__discribtion">We are waiting for your visit</h3>
+                            <div>
+                                <a class="footer__location-box"
+                                    href="https://www.google.com/maps/@42.3142647,-71.1103683,11z?hl" target="blank"><img
+                                        class="footer__location-img" src="../../assets/icons/icon-pin.svg" alt="location">
+                                    <span>1 Central Street, Boston (entrance from the store)</span></a>
+                            </div>
+                            <div>
+                                <a class="footer__location-box" href="https://www.google.com/maps/@51.5285582,-0.2416815,11z?hl"
+                                    target="blank"><img class="footer__location-img" src="../../assets/icons/icon-pin.svg" alt="location">
+                                    <span>18 South Park, London </span></a>
+                            </div>
+                        </div>
+                    </article>
+                    <img class="footer__puppy-img" src="../../assets/images/footer-puppy.png" alt="puppy">
+                </div>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
